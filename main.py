@@ -11,7 +11,10 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    screen.fill("purple")
+    screen.fill((0,0,1))
+    if pygame.image. get_extended ( ) == True:
+        image = pygame.image.load ("assets\IMG_20230310_210204_275.jpg").convert_alpha()
+        screen.blit(image, (200,200))
     pygame.display.flip()
 
     clock.tick(60)  
