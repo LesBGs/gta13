@@ -15,6 +15,8 @@ while running:
     if pygame.image. get_extended ( ) == True:
         image = pygame.image.load ("assets\IMG_20230310_210204_275.jpg").convert_alpha()
         screen.blit(image, (200,200))
+        image = pygame.image.load ("assets\rn_image_picker_lib_temp_98d895ad-4d84-401e-a8dd-de28c48f54a4.jpg").convert_alpha()
+        screen.blit(image, (250,250))
     pygame.display.flip()
 
     clock.tick(60)  
